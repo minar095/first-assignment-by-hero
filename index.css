@@ -65,8 +65,8 @@ line-height: normal;
 
     width:25%;
     position:absolute;
-    top:300%;
-    right:40px;
+    top:260%;
+    right:80px;
 }
 .banner-text-party h1{
 
@@ -199,9 +199,9 @@ flex-shrink: 0;
 border-radius: 463px;
 border: 15px solid #F00; 
 
-right:400px;
+right:500px;
 position: absolute;
-top:580%;
+top:560%;
 }
 
 #paser{
@@ -214,7 +214,7 @@ line-height: normal;
 
 right:200px;
 position: absolute;
-top:580%;
+top:550%;
 }
 #picci-para{
     color: rgba(7, 2, 17, 0.60);
@@ -226,7 +226,7 @@ line-height: 32px; /* 160% */
 width: 276px;
 right:70px;
 position:absolute;
-top:600%;
+top:565%;
 }
 #picci-pic{
 
@@ -235,7 +235,7 @@ height: 140px;
 flex-shrink: 0; 
 right:200px;
 position:absolute;
-top:620%;
+top:590%;
 }
 
 /*  after circle part */
@@ -297,7 +297,7 @@ background: #F00;
 }
 #five{
     position:absolute;
-    top:723%;
+    top:730%;
     left:900px ;
     width: 429px;
 height: 433px;
@@ -308,8 +308,8 @@ background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repe
 }
 #six{
 
-    width: 206.841px;
-height: 206.841px;
+    width: 300px;
+height: 300px;
 flex-shrink: 0; 
 fill: #F00; 
 color: #FFF;
@@ -320,8 +320,8 @@ font-weight: 700;
 line-height: normal; 
 
 position:absolute;
-top:755%;
-right: 160px;
+top:750%;
+right: 260px;
 }
 #seven{
     width:400px;
@@ -329,7 +329,7 @@ right: 160px;
     flex-shrink: 0; 
     position:absolute;
     top:765%;
-right: 550px;
+right: 650px;
 
 }
 #eight{
@@ -395,7 +395,7 @@ background: rgba(234, 103, 103, 0.05);
     height: 150px;
     flex-shrink: 0; 
     position:absolute;
-    top:1450%;
+    top:1310%;
 right: 500px;
 }
 .thirteen{
@@ -408,7 +408,7 @@ font-weight: 900;
 line-height: normal;
 text-transform: capitalize; 
 position: absolute;
-top:1465%;
+top:1325%;
 right:380px;
 
 }
@@ -422,7 +422,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */ 
 position: absolute;
-top:1485%;
+top:1340%;
 right:60px;
 }
 .subscribe{
@@ -435,8 +435,8 @@ right:60px;
     display: flex;
     align-items: center;
     position: absolute;
-    top:1460%;
-    right:200px;
+    top:1360%;
+    right:450px;
   }
   
 .subscribe input {
@@ -445,8 +445,8 @@ right:60px;
     border: none;
     font-size: 16px;
     position: absolute;
-    top:1460%;
-    right:200px;
+  
+    right:0;
   }
   
   .subscribe button {
@@ -457,11 +457,36 @@ right:60px;
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
-top:1460%;
-right:200px;
+
+right:0px;
   }
+  .sixteen{
 
+    width: 1600px;
+height: 609px;
+flex-shrink: 0;
+background: #070211;  
+  }
+.sixteen p{color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
+}
+.seventeen{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+position: absolute;
+ 
+right:850px;
+
+}
 
 
 

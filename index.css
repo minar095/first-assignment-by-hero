@@ -332,7 +332,7 @@ right: 260px;
 right: 650px;
 
 }
-#eight{
+.eight{
 
     color: #F00;
 font-family: Inter;
@@ -341,7 +341,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal; 
 }
-#nine{
+.nine{
 
     color: #070211;
 font-family: Merriweather;
@@ -351,7 +351,7 @@ font-weight: 900;
 line-height: normal;
 text-transform: capitalize; 
 }
-#ten{
+.ten{
 
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
@@ -360,7 +360,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */ 
 }
-.flex-container{
+.container{
 
     width: 100%;
     height: auto;
@@ -369,20 +369,16 @@ line-height: 32px; /* 160% */
     justify-content: space-around;
 
 }
-.flex-box{
-    
-    width: 424px;
-    height: 450px;
-    flex-shrink: 0;
-   font-size: 25px;
-   margin: 10px;
-   display:flex;
-   flex-direction:row;
-   justify-content: space-around;
-}
-.eleven
 
-{
+.container div{
+
+list-style: none;
+float: left;
+margin: 40px 40px 0px 55px;
+}
+
+
+.eleven{
 
 width: 1320px;
 height: 616px;
@@ -395,8 +391,10 @@ background: rgba(234, 103, 103, 0.05);
     height: 150px;
     flex-shrink: 0; 
     position:absolute;
-    top:1310%;
-right: 500px;
+  position:absolute;
+    top:1010%;
+    right: 550px;
+
 }
 .thirteen{
     color: #070211;
@@ -407,9 +405,9 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize; 
-position: absolute;
-top:1325%;
-right:380px;
+position:absolute;
+top:1025%;
+right: 440px;
 
 }
 .fourteen{
@@ -421,9 +419,9 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */ 
-position: absolute;
-top:1340%;
-right:60px;
+position:absolute;
+top:1040%;
+right: 100px;
 }
 .subscribe{
    
@@ -434,9 +432,9 @@ right:60px;
     padding: 10px;
     display: flex;
     align-items: center;
-    position: absolute;
-    top:1360%;
-    right:450px;
+    position:absolute;
+    top:1060%;
+    right: 500px;
   }
   
 .subscribe input {
